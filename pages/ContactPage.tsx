@@ -218,7 +218,7 @@ const ContactFormSection: React.FC = () => {
         };
 
         try {
-            const response = await fetch("http://electromart-services.onrender.com/api/contact", {
+            const response = await fetch("https://electromart-services.onrender.com/api/contact", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(contactData),
