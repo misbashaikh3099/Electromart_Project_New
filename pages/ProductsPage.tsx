@@ -206,7 +206,7 @@ const ProductsPage: React.FC = () => {
   // 🛒 Add to cart backend API
   const handleAddToCart = async (product: Product) => {
     try {
-      const response = await fetch("http://https://electromart-services.onrender.com//api/cart", {
+      const response = await fetch("http://electromart-services.onrender.com/api/cart", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

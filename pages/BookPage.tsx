@@ -26,7 +26,7 @@ const BookPage: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://https://electromart-services.onrender.com//api/bookings", {
+      const response = await fetch("http://electromart-services.onrender.com/api/bookings", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
